@@ -14,6 +14,7 @@ namespace GetYoutubePalyList
         private async void button1_Click(object sender, EventArgs e)
         {
             VideoInfo[] videoinfos = await GetDataFromWebsite(textBox1.Text);
+            dataGridView1.Rows.Clear();
 
             foreach (VideoInfo vinfo in videoinfos)
             {
