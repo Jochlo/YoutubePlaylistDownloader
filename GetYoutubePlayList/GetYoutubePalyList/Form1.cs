@@ -52,9 +52,8 @@ namespace GetYoutubePalyList
                             int justforme = 1;
                         }
 
-                        string[] splitForVideoName1 = allData[i].Split(filterTitleBetter);
-                        string[] splitForVideoName = splitForVideoName1[splitForVideoName1.Length - 1].Split(beforeTitle);
-                        string videoName = splitForVideoName[1].Split(aftertitle)[0];
+                        string[] splitForVideoName = allData[i].Split(filterTitleBetter);
+                        string videoName = splitForVideoName[splitForVideoName.Length - 1].Split(beforeTitle)[1].Split(aftertitle)[0];
                         string videoURL = "https://www.youtube.com/watch" + allData[i].Split(beforeurl)[1].Split(afterUrl)[0];
 
 
