@@ -24,6 +24,7 @@ namespace GetYoutubePalyList
 
         internal async Task<VideoInfo[]> GetDataFromWebsite(string url)
         {
+            //strings used for traversing the website
             string startSearch = "else {window.addEventListener('script-load-dpj',";
             string endSearch = "</div>";
             string beforeEachEntry = "\"ADD_TO_QUEUE_TAIL\"";
@@ -56,10 +57,15 @@ namespace GetYoutubePalyList
                     //iterate through the data
                     for (int i = 1; i < allData.Length; i++)
                     {
+                        //narrow down the entry section for the title
                         string[] splitForVideoName = allData[i].Split(filterTitleBetter);
+                        //split the entry string exactly to contain the video title
                         string videoName = splitForVideoName[splitForVideoName.Length - 1].Split(beforeTitle)[1].Split(aftertitle)[0];
+
+                        //split the entry string exactly to contain the video url
                         string videoURL = "https://www.youtube.com/watch" + allData[i].Split(beforeurl)[1].Split(afterUrl)[0];
 
+                        //add those information to our return object
                         videoInfos[i - 1] = new VideoInfo() { videoURL = videoURL, videoName = videoName };
                     }
                     client.Dispose();
