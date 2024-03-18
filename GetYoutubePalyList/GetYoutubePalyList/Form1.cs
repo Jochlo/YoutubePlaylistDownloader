@@ -37,27 +37,28 @@ namespace GetYoutubePalyList
 
             using (HttpClient client = new HttpClient())
             {
+                //Get a response from Youtube
                 HttpResponseMessage response = await client.GetAsync(url);
 
+                //check if the Request was successful
                 if (response.IsSuccessStatusCode)
                 {
+                    //Get the XML from the response
                     string xml = await response.Content.ReadAsStringAsync();
+
+                    //narrow down the section where we search for useful data
                     string[] allData = xml.Split(startSearch)[1].Split(endSearch)[0].Split(beforeEachEntry);
 
+                    //initialize the return object 
+                    //the size is one less than allData.Length because the first entry contains no data
                     videoInfos = new VideoInfo[allData.Length - 1];
 
+                    //iterate through the data
                     for (int i = 1; i < allData.Length; i++)
                     {
-                        if (i == 11)
-                        {
-                            int justforme = 1;
-                        }
-
                         string[] splitForVideoName = allData[i].Split(filterTitleBetter);
                         string videoName = splitForVideoName[splitForVideoName.Length - 1].Split(beforeTitle)[1].Split(aftertitle)[0];
                         string videoURL = "https://www.youtube.com/watch" + allData[i].Split(beforeurl)[1].Split(afterUrl)[0];
-
-
 
                         videoInfos[i - 1] = new VideoInfo() { videoURL = videoURL, videoName = videoName };
                     }
