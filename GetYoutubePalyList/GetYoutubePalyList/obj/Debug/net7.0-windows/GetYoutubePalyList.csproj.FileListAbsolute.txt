@@ -1,0 +1,16 @@
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\GetYoutubePalyList.Form1.resources
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\GetYoutubePalyList.csproj.GenerateResource.cache
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\GetYoutubePalyList.GeneratedMSBuildEditorConfig.editorconfig
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\GetYoutubePalyList.AssemblyInfoInputs.cache
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\GetYoutubePalyList.AssemblyInfo.cs
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\GetYoutubePalyList.csproj.CoreCompileInputs.cache
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\bin\Debug\net7.0-windows\GetYoutubePalyList.exe
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\bin\Debug\net7.0-windows\GetYoutubePalyList.deps.json
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\bin\Debug\net7.0-windows\GetYoutubePalyList.runtimeconfig.json
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\bin\Debug\net7.0-windows\GetYoutubePalyList.dll
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\bin\Debug\net7.0-windows\GetYoutubePalyList.pdb
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\GetYoutubePalyList.dll
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\refint\GetYoutubePalyList.dll
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\GetYoutubePalyList.pdb
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\GetYoutubePalyList.genruntimeconfig.cache
+E:\Utility\Microsoft Visual Studio\ownprojects\GetYoutubePalyList\GetYoutubePalyList\obj\Debug\net7.0-windows\ref\GetYoutubePalyList.dll
